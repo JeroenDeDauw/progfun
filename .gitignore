@@ -1,0 +1,8 @@
+.*
+*~
+*.kate-swp
+.*.swp
+
+bin
+
+!.gitignore
