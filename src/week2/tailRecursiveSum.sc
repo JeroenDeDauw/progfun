@@ -3,7 +3,7 @@ object tailRecursiveSum {
   def sum(f: Int => Int, a: Int, b: Int): Int = {
     def loop(a: Int, acc: Int): Int = {
       if (a > b) return acc
-      else loop(a + 1, acc + a)
+      else loop(a + 1, acc + f(a))
     }
     loop(a, 0)
   }                                               //> sum: (f: Int => Int, a: Int, b: Int)Int
