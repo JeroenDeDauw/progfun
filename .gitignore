@@ -4,5 +4,6 @@
 .*.swp
 
 bin
+target
 
 !.gitignore
