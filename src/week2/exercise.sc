@@ -6,5 +6,5 @@ object exercise {
   	loop(1, n)
   }                                               //> factorial: (n: Int)Int
  
-  factorial(4)                                    //> res0: Int = 24
+  factorial(5)                                    //> res0: Int = 120
 }
